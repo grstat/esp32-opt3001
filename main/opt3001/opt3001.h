@@ -62,20 +62,20 @@
 /* THE CONFIG REGISTER IS 16 BITS LONG BUT THE FIRST 8 
  * BITS ARE RESERVED, SO HERE JUST PACK IN THE LAST 8 BITS */
 typedef union {
-	unsigned short config_register;
-	struct {
+  unsigned short config_register;
+  struct {
     unsigned short fault_count_field : 2;   // 0->1   R/W
     unsigned short mask_exponent_field : 1; // 2      R/W
     unsigned short polarity_field : 1;      // 3      R/W
     unsigned short latch_field : 1;         // 4      R/W
-		unsigned short low_field_flag : 1;      // 5      R
-		unsigned short high_field_flag : 1;     // 6      R
-		unsigned short conversion_ready : 1;    // 7      R
-		unsigned short overflow_flag : 1;       // 8      R
-		unsigned short mode_of_conversion : 2;  // 10->9  R/W
-		unsigned short conversion_time : 1;     // 11     R/W
-		unsigned short range_number_feild : 4;  // 15->12 R/W
-	};
+    unsigned short low_field_flag : 1;      // 5      R
+    unsigned short high_field_flag : 1;     // 6      R
+    unsigned short conversion_ready : 1;    // 7      R
+    unsigned short overflow_flag : 1;       // 8      R
+    unsigned short mode_of_conversion : 2;  // 10->9  R/W
+    unsigned short conversion_time : 1;     // 11     R/W
+    unsigned short range_number_feild : 4;  // 15->12 R/W
+  };
 } opt3001_config_t;
 
 /* THIS CAN BE USED FOR THE DEFAULT REGISTER VALUES */
