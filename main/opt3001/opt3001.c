@@ -1,7 +1,7 @@
 /* opt3001.c
- * ------------------------------------
- * ESP32 OPT3001 ALS HAL LIBRARY C FILE
- * ------------------------------------
+ * ---------------------------------------
+ * ESP32 OPT3001 ALS DRIVER LIBRARY C FILE
+ * ---------------------------------------
  * The OPT3001 is an Ambient Light Sensor (ALS) Manufactured by Texas Instruments
  * that can measures lux values between 0.01 and 83k and also provides a highly 
  * configurable interrupt pin.

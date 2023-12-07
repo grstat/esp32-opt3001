@@ -1,4 +1,4 @@
-# ESP32 OPT3001 LIBRARY
+# ESP32 OPT3001 DRIVER LIBRARY
 The OPT3001 is an Ambient Light Sensor (ALS) Manufactured by Texas Instruments that can measures lux values between 0.01 and 83k and also provides a highly configurable interrupt pin. I've tested the accuracy using my MT-912 Light Meter and the readings are pretty spot on.
 
 This library abstracts a lot of the pain of configuring and monitoring the opt3001.
