@@ -4,7 +4,7 @@
  * ---------------------------------
  * Copyright 2023 Open grStat
  * SPDX-FileCopyrightText: 2023 Open grStat https://github.com/grstat
- * SPDX-FileType: SOURCE
+ * SPDX-FileType: HEADER
  * SPDX-FileContributor: Created by Adrian Borchardt
  * SPDX-License-Identifier: Apache 2.0
  */
