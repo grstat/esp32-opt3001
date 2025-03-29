@@ -3,7 +3,7 @@ The OPT3001 is an Ambient Light Sensor (ALS) Manufactured by Texas Instruments t
 
 This library abstracts a lot of the pain of configuring and monitoring the opt3001.
 
-The esp32-opt1080.c provides you with a thorough example on how to use the library. In addition it gives you the information and sample code to create a an interrupt driven opt3001 setup, including an event thread, notify group and trigger setups.
+The esp32-opt3001.c provides you with a thorough example on how to use the library. In addition it gives you the information and sample code to create a an interrupt driven opt3001 setup, including an event thread, notify group and trigger setups.
 
 # Requirements
 - An ESP32 Dev Kit
